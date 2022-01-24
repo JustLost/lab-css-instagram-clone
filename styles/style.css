@@ -4,7 +4,48 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+}
+
+header {
+  background-image: url("/images/bgtile.png");
+  background-size: repeat;
+  height: 400px;
+  width: 100wv;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.container {  
+  display: flex;
+  flex-direction: row;
+  margin-top: -10rem;
+}
+.log-in-button {
+  background-image: url("/images/bgtile.png");
+  background-size: cover;
+  border: none;
+  border-radius: 7%;
+  color: white;
+  width: 100px;
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+}
+.general-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.app-button {
+  background-color: white;
+  border: none;
 }
