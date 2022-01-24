@@ -10,11 +10,9 @@ header {
   height: 300px;
   width: 100vw;
 }
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  
+  margin: 0;  
 }
 .main-container{
   display: flex;
@@ -31,16 +29,14 @@ body {
   margin-top: -12rem; 
   margin-left: 10vw;
   margin-right: 5vw;
-  width: 100px;
-  
+  width: 100px;  
 }
 .insta-tag {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 24vw;
-  margin-left: 1vw;
-  
+  margin-left: 1vw;  
 }
 .log-in-button {
   background-image: url("/lab-css-instagram-clone/images/bgtile.png");
@@ -54,8 +50,7 @@ body {
   height: 40px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  
+  align-items: center;  
 }
 .introduction {
   background-image: url("/lab-css-instagram-clone/images/frame.png");
@@ -66,7 +61,7 @@ body {
   margin: 30px 40px;
 }
 .introduction-tag1 {
-  color: #155b99;
+  color: #06365f;
   display: flex;
   margin-bottom: 0;
   margin-left: 35px;
@@ -92,8 +87,7 @@ body {
   font-weight: bolder;
   margin-left: 20vw;
   margin-top: 1vw;
-  margin-right: 20vw;
-  
+  margin-right: 20vw;  
 }
 .general-links-box {
   display: flex;
@@ -101,17 +95,16 @@ body {
   align-items: center;
   width: 27vw;
   flex-wrap: wrap;
-  margin-left: 3vw;
-  
+  margin-left: 3vw;  
 }
 .general-links a {
   text-decoration: none;
-  color: #5a96c7;
-  font-weight: bolder;
-  font-size: ;
+  color: #1c5380;
+  font-weight: 800;  
 }
 .general-links p {
-  color: rgb(180, 174, 174);
+  color: rgb(148, 143, 143);
+  font-weight: 700;
 }
 .buttons{
 margin-left: 70px;
@@ -119,6 +112,5 @@ margin-left: 70px;
 .app-button {
   background-color: white;
   border: none;
-  margin-bottom: 0;
-  
+  margin-bottom: 0;  
 }
